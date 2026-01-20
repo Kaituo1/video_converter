@@ -98,13 +98,6 @@
 - os（文件系统操作）
 - sys（系统信息）
 
-### FFmpeg参数
-- 默认高质量参数：`-crf 18 -preset slow`
-- 支持的GPU加速编码器：
-  - NVIDIA：`h264_nvenc`
-  - AMD：`h264_amf`
-  - Intel：`h264_qsv`
-
 ## 常见问题
 
 ### 1. 程序提示"未找到FFmpeg"
